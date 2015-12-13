@@ -6,9 +6,9 @@ import java.util.ArrayList;
  */
 public class Dispatcher {
     public static void main(String[] args) throws IOException, ClassNotFoundException {
-        Car c1 = new Car(200, new MyEngine(250), "white");
-        Car c2 = new Car(180, new MyEngine(210), "black");
-        Car c3 = new Car(130, new MyEngine(220), "yellow");
+        Car c1 = new Car(200, new Engine(250,"Melitopol"), "white");
+        Car c2 = new Car(180, new Engine(210, "Man"), "black");
+        Car c3 = new Car(130, new Engine(220, "Mers"), "yellow");
        // ArrayList<Car> al = new ArrayList();
        // al.add(c1);
       //  al.add(c2);
